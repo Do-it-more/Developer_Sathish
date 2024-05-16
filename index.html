@@ -37,6 +37,24 @@
 					margin-bottom: 20px;
 				}
 				/* Add more responsive styles as needed */
+				@media (max-width: 767.98px) {
+        .home-slider .slider-item .container .row .one-third.img {
+          width: 100%;
+        }
+        .home-slider .slider-item .container .row .one-forth {
+          width: 100%;
+        }
+		@media (max-width: 767.98px) {
+  .home-slider .slider-item {
+    height: 300px; /* adjust the height value as needed */
+  }
+}
+@media (max-width: 767.98px) {
+  .home-slider .slider-item .img {
+    height: 100%; /* adjust the height value as needed */
+    object-fit: cover;
+  }
+}
 			}
 		</style>
   	</head>
@@ -89,7 +107,7 @@
 	  </nav>
 	  <!--carousel-->
 	  <section id="home-section" class="hero">
-		  <div class="home-slider  owl-carousel">
+		<div class="home-slider owl-carousel">
 	      <div class="slider-item ">
 	      	<div class="overlay"></div>
 	        <div class="container">
